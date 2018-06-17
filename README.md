@@ -17,5 +17,5 @@ But... HOW should M.I. users adjust these arguments?
 M.I. Suggestion use gamified tasks to collect users’ touching behaviour. There are three categories of tasks: Tapping, Dragging, and Swiping. We collected different kinds of touch data during each task, including touches positions, timestamps, area and so on. These touch data are then sent to Firebase to build a personal model. With this personal model, we could calculate the optimal touch accommodation arguments for users. Users can freely decided whether they would like to adjust the argument based on our suggestion on the main page.
 During the game, user could find the suitable arguments by pushing the envelope and meanwhile having lots of fun.
 
-## Screen shots
-See ![poster.pdf](https://github.com/Oliveck10/MISuggestion_game/blob/master/poster.pdf)
+## Detail info
+See [our poster](https://github.com/Oliveck10/MISuggestion_game/blob/master/poster.pdf)
