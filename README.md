@@ -14,7 +14,7 @@ The final project of 2018 mobile programming class. (iOS)
 
 ## Installing with CocoaPods
 
-[CocoaPods](http://cocoapods.org) is a centralised dependency manager that automates the process of adding libraries to your Cocoa application. You can install it with the following command:
+[CocoaPods](http://cocoapods.org) is a centralised dependency manager that automates the process of adding libraries to your Cocoa application. You can install it with the following command on your command line:
 
 ```bash
 $ gem update
@@ -24,9 +24,9 @@ $ pods --version
 
 To run this project, specify the follwoing library in your `Podfile` and run `pod install`.
 ```
-  pod 'TouchVisualizer'
-  pod 'Firebase/Core'
-  pod 'Firebase/Storage'
+pod 'TouchVisualizer'
+pod 'Firebase/Core'
+pod 'Firebase/Storage'
 ```
 
 ## Introduction
