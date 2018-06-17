@@ -6,8 +6,30 @@ The final project of 2018 mobile programming class. (iOS)
 - B03902097 彭奕豪
 - B04902079 甯芝蓶
 
-## Introduction
+## Runtime Requirements
 
+- Swift 4.0
+- Xcode 9.2
+- iOS9.0 or later
+
+## Installing with CocoaPods
+
+[CocoaPods](http://cocoapods.org) is a centralised dependency manager that automates the process of adding libraries to your Cocoa application. You can install it with the following command:
+
+```bash
+$ gem update
+$ gem install cocoapods
+$ pods --version
+```
+
+To run this project, specify the follwoing library in your `Podfile` and run `pod install`.
+```
+  pod 'TouchVisualizer'
+  pod 'Firebase/Core'
+  pod 'Firebase/Storage'
+```
+
+## Introduction
 Motor impaired people are often unable to use touch screen as smoothly as we do. They often encounter several problems, such as multiple concurrent touches, inaccurate landing and lifting behavior (slow movement,sliding finger) and so on.
 For these users, iOS provide a solution: the Touch Accommodations settings.
 
